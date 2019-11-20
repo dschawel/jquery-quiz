@@ -1,10 +1,29 @@
-html,
+
 body {
-  margin: 0;
-  padding: 0;
+  display: inline-flexbox;
+  flex-wrap: wrap;
+  background: cornflowerblue;
+  text-align: center;
+}
+
+header {
+  font-size: 55px;
+  color: chartreuse;
+  min-width: 100%;
 }
 
 h1 {
   color: chartreuse;
   text-align: center;
+  font-size: 50px;
+  margin-bottom: 50px;
 }
+
+.style {
+  background-color: #F1F1F1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  align-content: center;
+}
+
